@@ -1,0 +1,208 @@
+html {
+	width: 100%;
+	height:100%;
+
+}
+
+.brand {
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 30px;
+	font-family: Impact;
+  text-shadow: 2px 3px black;
+}
+
+.brand:hover {
+	text-decoration: none;
+	color: #33b5e5;
+}
+
+
+
+.container-fluid {
+	background:-webkit-radial-gradient(center, ellipse cover, #33b5e5, #0099CC);
+	width: 100%;
+
+}
+
+.nav{
+	font-size: 25px;
+	padding-top: 40px;
+
+}
+
+
+
+.nav-item {
+color: white;
+padding-right: 180px;
+padding-left: 180px;
+border-radius: 30px 30px 30px 30px;
+transition: all .50s ease .20s;
+
+
+}
+
+.nav-item > .nav-link  {
+	transition: all .50s ease .20s;
+
+}
+
+
+
+.nav-link {
+	color: white;
+
+}
+
+.nav-item:hover  {
+	background-color: white;
+	border-radius: 30px ;
+	color:#33b5e5;
+	transition: all .25s ease .15s;
+
+}
+
+
+.nav-item:hover .nav-link  {
+	color: #33b5e5;
+	transition: all .25s ease .15s;
+
+}
+
+
+.active {
+	background: white;
+	color:#33b5e5;
+
+}
+
+.active > .nav-link {
+	color: #33b5e5;
+
+}
+
+
+.social-icon-container {
+	padding: 30px;
+}
+
+
+.icons {
+	padding: 15px;
+	width: 75px;
+	width: 75px;
+	transition: all .75s ease .1s;
+}
+
+
+#twitter:hover {
+	border-radius:  60px ;
+	transition: all 1s ease;
+  background-color: #1da1f2;
+}
+
+#facebook:hover {
+		border-radius: 60px;
+		background: #3b5998;
+		transition: all 1s ease;
+	}
+
+#google:hover {
+		border-radius: 60px;
+		background: #F4B400;
+		transition: all 1s ease;
+
+	}
+
+
+
+.user-profile-icon {
+	margin-right: 100px;
+	margin-top: 60px;
+}
+
+
+.user-profile-icon:hover .invisible-user-icons {
+	display: block;
+	border-radius: 30px;
+}
+
+.invisible-user-icons {
+	display: none;
+}
+
+
+#Market_sign {
+text-align: center;
+text-shadow: 1px 1px #33b5e5;
+font-family: Verdana;
+font-weight: bold;
+font-size: 45px;
+color: #33b5e5;
+}
+
+
+.con {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+
+
+}
+
+.item-container
+ {
+	 width: 400px;
+   margin: 10px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+   border-radius: 30px 30px 30px 30px;
+	 border: 3px solid #33b5e5;
+	 align:center;
+	 color: red;
+	 transition: all .50s ease .20s;
+
+
+}
+
+
+.item-container:hover {
+	background:rgba(0,0,0, 1);
+	transition: all .50s ease .10s;
+
+}
+
+.item-font-color {
+	color: black;
+	transition: all .50s ease .20s;
+}
+
+.item-container:hover .item-font-color  {
+	color: white;
+	transition: all .50s ease .10s;
+
+}
+
+
+.form-control {
+	margin-left: 125px;
+
+}
+
+#add-botton {
+	text-align: center;
+	width: 60%;
+	border-radius: 40px 40px 40px 40px;
+	border: #007E33;
+	background:  #007E33;
+	color: white;
+
+}
+
+#add-botton:hover {
+	background: #00C851;
+}

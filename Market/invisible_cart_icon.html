@@ -1,0 +1,40 @@
+<!--
+   Author: Fahad,Shaker
+-->
+
+<html>
+<body>
+<style>
+
+#cart-box {
+	background: #33b5e5;
+	margin-top: 45px;
+
+ }
+#cart-box:hover {
+	background: #0099CC;
+}
+
+</style>
+
+
+   <div class="cart_icon">
+	    <a href="Cart.php" class="nav-link">
+			  	<span class="input-group-text" id="cart-box">
+						<i class="fas fa-shopping-cart">
+						  <span class="badge">
+					       <?php
+						      	if(isset($_SESSION["shopping_cart"])) {
+							     	echo count($_SESSION["shopping_cart"]);	}
+						 else {
+									 echo '0';
+								 } 				?>
+			    	</span>
+		   	  </i>
+		  	</span>
+    	</a>
+	</div>
+
+
+</body>
+</html>
